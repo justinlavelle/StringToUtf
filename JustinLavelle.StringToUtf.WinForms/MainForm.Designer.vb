@@ -31,8 +31,8 @@ Partial Class MainForm
         Me.StringTextBox = New MetroFramework.Controls.MetroTextBox()
         Me.MetroLabel1 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabPage2 = New MetroFramework.Controls.MetroTabPage()
-        Me.MetroLabel3 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTextBox1 = New MetroFramework.Controls.MetroTextBox()
+        Me.MetroLabel3 = New MetroFramework.Controls.MetroLabel()
         Me.MetroTabControl1.SuspendLayout()
         Me.MetroTabPage1.SuspendLayout()
         Me.MetroTabPage2.SuspendLayout()
@@ -44,7 +44,7 @@ Partial Class MainForm
         Me.MetroTabControl1.Controls.Add(Me.MetroTabPage2)
         Me.MetroTabControl1.Location = New System.Drawing.Point(23, 63)
         Me.MetroTabControl1.Name = "MetroTabControl1"
-        Me.MetroTabControl1.SelectedIndex = 1
+        Me.MetroTabControl1.SelectedIndex = 0
         Me.MetroTabControl1.Size = New System.Drawing.Size(754, 410)
         Me.MetroTabControl1.Style = MetroFramework.MetroColorStyle.Purple
         Me.MetroTabControl1.TabIndex = 2
@@ -122,10 +122,10 @@ Partial Class MainForm
         Me.MetroLabel2.AutoSize = True
         Me.MetroLabel2.Location = New System.Drawing.Point(0, 205)
         Me.MetroLabel2.Name = "MetroLabel2"
-        Me.MetroLabel2.Size = New System.Drawing.Size(162, 19)
+        Me.MetroLabel2.Size = New System.Drawing.Size(167, 19)
         Me.MetroLabel2.Style = MetroFramework.MetroColorStyle.Purple
         Me.MetroLabel2.TabIndex = 4
-        Me.MetroLabel2.Text = "Copy Convered Text Here:"
+        Me.MetroLabel2.Text = "Copy Converted Text Here:"
         Me.MetroLabel2.Theme = MetroFramework.MetroThemeStyle.Dark
         '
         'StringTextBox
@@ -164,7 +164,7 @@ Partial Class MainForm
         'MetroLabel1
         '
         Me.MetroLabel1.AutoSize = True
-        Me.MetroLabel1.Location = New System.Drawing.Point(-4, 15)
+        Me.MetroLabel1.Location = New System.Drawing.Point(0, 15)
         Me.MetroLabel1.Name = "MetroLabel1"
         Me.MetroLabel1.Size = New System.Drawing.Size(135, 19)
         Me.MetroLabel1.Style = MetroFramework.MetroColorStyle.Purple
@@ -189,18 +189,6 @@ Partial Class MainForm
         Me.MetroTabPage2.VerticalScrollbarBarColor = True
         Me.MetroTabPage2.VerticalScrollbarHighlightOnWheel = False
         Me.MetroTabPage2.VerticalScrollbarSize = 10
-        '
-        'MetroLabel3
-        '
-        Me.MetroLabel3.AutoSize = True
-        Me.MetroLabel3.Location = New System.Drawing.Point(-4, 26)
-        Me.MetroLabel3.Name = "MetroLabel3"
-        Me.MetroLabel3.Size = New System.Drawing.Size(276, 38)
-        Me.MetroLabel3.Style = MetroFramework.MetroColorStyle.Purple
-        Me.MetroLabel3.TabIndex = 2
-        Me.MetroLabel3.Text = "StringToUtf is Licensed under the M.I.T. License" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Feel free to use and alter to s" &
-    "uit your needs."
-        Me.MetroLabel3.Theme = MetroFramework.MetroThemeStyle.Dark
         '
         'MetroTextBox1
         '
@@ -237,6 +225,18 @@ Partial Class MainForm
         Me.MetroTextBox1.UseSelectable = True
         Me.MetroTextBox1.WaterMarkColor = System.Drawing.Color.FromArgb(CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer), CType(CType(109, Byte), Integer))
         Me.MetroTextBox1.WaterMarkFont = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Pixel)
+        '
+        'MetroLabel3
+        '
+        Me.MetroLabel3.AutoSize = True
+        Me.MetroLabel3.Location = New System.Drawing.Point(-4, 26)
+        Me.MetroLabel3.Name = "MetroLabel3"
+        Me.MetroLabel3.Size = New System.Drawing.Size(276, 38)
+        Me.MetroLabel3.Style = MetroFramework.MetroColorStyle.Purple
+        Me.MetroLabel3.TabIndex = 2
+        Me.MetroLabel3.Text = "StringToUtf is Licensed under the M.I.T. License" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Feel free to use and alter to s" &
+    "uit your needs."
+        Me.MetroLabel3.Theme = MetroFramework.MetroThemeStyle.Dark
         '
         'MainForm
         '
